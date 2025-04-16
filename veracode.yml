@@ -1,0 +1,3 @@
+veracode_static_scan:
+  analysis_on_platform: true  # Store the scan results on the Veracode platform for historical tracking
+  analysis_branch: main  # Ensure that scan results are associated with the 'main' branch on Veracode platform
