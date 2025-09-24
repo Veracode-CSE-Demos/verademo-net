@@ -5,7 +5,7 @@
 Blab-a-Gag is a fairly simple forum type application which allows:
 * Users can post a one-liner joke.
 * Users can follow the jokes of other users or not (listen or ignore).
-* Users can comment on other users messages (heckle).
+* Users can comment on other users messages (heckle)
 
 It is based around .NET 8
 
@@ -57,5 +57,6 @@ docker run --rm -it -p 127.0.0.1:8080:8080 --entrypoint bash -v "$(pwd)/app:/app
 ```
 
 You will then need to manually run the two commands within `/entrypoint.sh`. The first starts the DB in the background whereas the second compiles and runs the application. Typically a container shouldn't have multiple services but this was done for convenience..
+
 
 
