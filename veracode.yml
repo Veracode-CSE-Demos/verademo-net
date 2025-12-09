@@ -1,7 +1,8 @@
 # veracode.yml (repo level)
 veracode_static_scan:
   analysis_on_playform: true
-  analysis_branch: default_branch
+  analysis_branch: 
+    - main
   policy: "Veracode Recommended Medium + SCA"
   profile: "Example verademo net"
   
