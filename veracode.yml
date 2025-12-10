@@ -10,5 +10,3 @@ veracode_static_scan:
       - release
   analysis_on_playform: true
   policy: "Veracode Recommended High + SCA"
-  profile: "GH - verademo net"
-  
