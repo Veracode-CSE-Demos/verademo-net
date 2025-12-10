@@ -1,12 +1,5 @@
 # veracode.yml (repo level)
 veracode_static_scan:
-  pull_request:
-    trigger: true
-    action:
-      - opened
-      - synchronize
-    target_branch:
-      - default_branch 
   analysis_on_playform: true
   policy: "Veracode Recommended High + SCA"
   profile: "Example verademo net"
