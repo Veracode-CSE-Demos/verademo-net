@@ -2,3 +2,4 @@
 veracode_static_scan:
   analysis_on_platform: true
   policy: "Veracode Recommended High + SCA"
+  profile: "team-test-workflow-app"
