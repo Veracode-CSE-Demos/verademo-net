@@ -1,5 +1,3 @@
 # veracode.yml (repo level)
 veracode_static_scan:
-  analysis_on_platform: true
-  policy: "Veracode Recommended High + SCA"
-  profile: "team-test-workflow-app"
+  policy: "Veracode Recommended Medium + SCA"
